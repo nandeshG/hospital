@@ -1,0 +1,34 @@
+.search{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.searchHeading  {
+    background-color: #fcf300;
+    color: #00b4d8;
+    border-top-right-radius:0.5rem ;
+    border-top-left-radius: 0.5rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 0;
+}
+
+.searchFields {
+    padding: 1rem;
+    height: 26rem;
+    margin-top: 0;
+    background-color: #f8f9fa;
+}
+
+.firstnameSymbol{
+    margin-right: 1rem;
+    color: #00b4d8;
+}
+
+.commonSymbol{
+    margin-right: 1rem;
+}
+
+.inputField{
+    margin-bottom: 1rem;
+}

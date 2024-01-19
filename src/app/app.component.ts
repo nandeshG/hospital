@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hospital_dashboard';
+  textRecieve:string='';
+  sentSearch!:string;
+
+  textRecieved(event:string){
+    this.textRecieve = event;
+  }
 }

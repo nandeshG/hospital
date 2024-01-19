@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="search">
+        <p class="searchHeading">search <span class="searchCol">Use % sign to search anywhere in the column</span></p>
+        <div class="form-group row inputField">
+            <div class="col-sm-8 resultInput">
+                <input type="text" #press (input)="onType(press.value)" [(ngModel)]="search" class="form-control">
+            </div>
+            <div class="col-sm-2 resultInput">
+                <input type="button" value="search" class="form-control">
+            </div>
+            <div class="col-sm-2 resultInput">
+                <input type="button" value="clear" (click)="clear()" class="form-control">
+            </div>
+        </div>               
+    </div>   
+</div>
+<div class="row">
+    <div class="search">        
+        <p class="resultHeading">Result</p>
+        <div class="form-group row resultField">
+           <div class="row tables">
+             <table>
+                <thead>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>chart no</th>
+                    <th>Address 1</th>
+                </thead>
+             </table>
+           </div>
+        </div>
+    </div>
+</div>
